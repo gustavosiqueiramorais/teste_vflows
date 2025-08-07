@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro Fornecedor/Produto</title>
+</head>
+<body>
+    <h1>CADASTRO FORNECEDOR/PRODUTO</h1>
+    <main>
+        <div class="caixa">
+            <h2>Dados do Fornecedor</h2>
+            <form id="formulario" class="formulario">
+                <div class="conteudo">
+                    <label for="razaosocial">Razão Social</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="razaosocial"
+                    placeholder="Digite aqui"
+                    >
+                    <p>Campo obrigatório</p>
+                </div>
+                <div class="conteudo">
+                    <label for="cnpj">CNPJ</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="cnpj"
+                    placeholder="Digite aqui"
+                    >
+                    <p>Campo obrigatório</p>
+                </div>
+                <div class="conteudo">
+                    <label for="nomefantasia">Nome Fantasia</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="nomefantasia"
+                    placeholder="Digite aqui"
+                    >
+                    <p>Campo obrigatório</p>
+                </div>
+                <div class="conteudo">
+                    <label for="inscricaoestadual">Inscrição Estadual</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="inscricaoestadual"
+                    placeholder="Digite aqui"
+                    >
+                </div>
+                <div class="conteudo">
+                    <label for="cep">CEP</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="cep"
+                    placeholder="Digite aqui"
+                    >
+                </div>
+                <div class="conteudo">
+                    <label for="inscricaomunicipal">Inscrição Municipal</label>
+                    <br>
+                    <input
+                    type="number"
+                    id="inscricaomunicipal"
+                    placeholder="Digite aqui"
+                    >
+                </div>
+                <div class="conteudo">
+                    <label for="endereco">Endereço</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="endereco"
+                    placeholder="Digite aqui"
+                    >
+                    <p>Campo obrigatório</p>
+                </div>
+                <div class="conteudo">
+                    <label for="numero">Número</label>
+                    <br>
+                    <input
+                    type="number"
+                    id="numero"
+                    placeholder="Digite aqui"
+                    >
+                </div>
+                <div class="conteudo">
+                    <label for="complemento">Complemento</label>
+                    <br>
+                    <input
+                    type="text"
+                    id="complemento"
+                    placeholder="Digite aqui"
+                    >
+                </div>
+                <div class="localizacao">
+                    <div class="conteudo">
+                        <label for="bairro">Bairro</label>
+                        <br>
+                        <input
+                        type="text"
+                        id="bairro"
+                        placeholder="Digite aqui"
+                        >
+                    </div>
+                    <div class="conteudo">
+                        <label for="municipio">Municipio</label>
+                        <br>
+                        <input
+                        type="text"
+                        id="municipio"
+                        placeholder="Digite aqui"
+                        >
+                    </div>
+                    <div class="conteudo">
+                        <label for="estado">Estado</label>
+                        <br>
+                        <input
+                        type="text"
+                        id="estado"
+                        placeholder="Digite aqui"
+                        >
+                    </div>
+                </div>
+                <div class="contato">
+                    <div class="conteudo">
+                        <label for="nomecontato">Nome da Pessoa de Contato</label>
+                        <br>
+                        <input
+                        type="text"
+                        id="nomecontato"
+                        placeholder="Digite aqui"
+                        >
+                        <p>Campo obrigatório</p>
+                    </div>
+                    <div class="conteudo">
+                        <label for="telefone">Telefone</label>
+                        <br>
+                        <input
+                        type="tel"
+                        id="telefone"
+                        placeholder="Digite aqui"
+                        >
+                        <p>Campo obrigatório</p>
+                    </div>
+                    <div class="conteudo">
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite aqui"
+                        >
+                        <p>Campo obrigatório</p>
+                    </div>
+                </div>
+                
+                <h2>Produtos</h2>
+                <div class="conteudo">
+                    <label for="produto">Produto</label>
+                        <br>
+                        <input
+                        type="text"
+                        id="produto"
+                        placeholder="Digite aqui"
+                        >
+                </div>
+
+                <div class="infoproduto">
+                    <div class="conteudo">
+                        <label for="quantidade">Quantidade</label>
+                            <br>
+                            <input
+                            type="text"
+                            id="quantidade"
+                            placeholder="Digite aqui"
+                            >
+                    </div>
+                    <div class="conteudo">
+                        <label for="valorunitario">Valor Unitário</label>
+                            <br>
+                            <input
+                            type="text"
+                            id="valorunitario"
+                            placeholder="Digite aqui"
+                            >
+                    </div>
+                    <div class="conteudo">
+                        <label for="valortotal">Valor Total</label>
+                            <br>
+                            <input
+                            type="text"
+                            id="valortotal"
+                            placeholder="Digite aqui"
+                            >
+                    </div>
+
+
+                    <div class="conteudo">
+                        <label for="unidademedida">UND. Medida</label>
+                        <br>
+                        <select name="unidademedida" id="unidademedida" required>
+                            <option value="un">Unidade</option>
+                            <option value="kg">Quilograma</option>
+                            <option value="lt">Litro</option>
+                        </select>
+                    </div>
+                </div>
+
+                    <button type="submit">Salvar Fornecedor</button>
+            </form>
+        </div>
+    </main>
+    <script src="https://unpkg.com/inputmask@5.0.7/dist/inputmask.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
