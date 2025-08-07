@@ -1,0 +1,1 @@
+Apliquei todos os conhecimentos que eu possuia e usei o livro: JavaScript o guia definitivo, para tirar duvidas. Algumas funções não pude entregar devido a falta de conhecimento, entretanto, pesquisei e tentei várias vezes.
